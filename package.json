@@ -1,0 +1,9 @@
+{
+  "name": "shiftnest-saas-landing",
+  "version": "1.0.0",
+  "description": "Landing page for a fictional B2B SaaS staff-scheduling brand: plan picker, ROI estimator, A/B headline test with dataLayer events, validated demo form and a messaging brief.",
+  "private": true,
+  "scripts": { "test": "node --test", "start": "python3 -m http.server 8000" },
+  "license": "MIT",
+  "author": "Yash Sarkar"
+}

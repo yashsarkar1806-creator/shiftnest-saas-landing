@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shiftnest — Staff scheduling for multi-location retail &amp; cafés (fictional brand)</title>
+  <meta name="description" content="Shiftnest is a fictional staff-scheduling app for multi-location retail and hospitality teams: auto-filled rosters, overtime alerts and one-tap shift swaps. A marketing portfolio landing page by Yash Sarkar.">
+  <link rel="canonical" href="https://yashsarkar1806-creator.github.io/shiftnest-saas-landing/">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0f3d3e">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shiftnest (fictional)">
+  <meta property="og:title" content="Shiftnest — Build next week’s roster in 10 minutes">
+  <meta property="og:description" content="Fictional B2B SaaS landing page: plan picker, ROI estimator, A/B headline test with dataLayer events and a validated demo form.">
+  <meta property="og:url" content="https://yashsarkar1806-creator.github.io/shiftnest-saas-landing/">
+  <meta property="og:image" content="https://yashsarkar1806-creator.github.io/shiftnest-saas-landing/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Shiftnest — staff scheduling for multi-location teams (fictional brand)">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shiftnest — Build next week’s roster in 10 minutes">
+  <meta name="twitter:description" content="Fictional B2B SaaS landing page with working plan picker, ROI estimator and A/B headline test.">
+  <meta name="twitter:image" content="https://yashsarkar1806-creator.github.io/shiftnest-saas-landing/assets/og-image.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Shiftnest (fictional demo brand)",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web, iOS, Android",
+    "description": "Fictional staff-scheduling software for multi-location retail and hospitality teams, created as a marketing portfolio project.",
+    "offers": { "@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": "0", "highPrice": "89" }
+  }
+  </script>
+  <script>window.dataLayer = window.dataLayer || [];</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="demo-banner" role="note">Portfolio demo: <strong>Shiftnest is a fictional brand</strong>. Prices, quotes and customer stories are synthetic. No form data leaves your browser.</div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#top" class="brand" aria-label="Shiftnest home"><img src="assets/favicon.svg" alt="" width="28" height="28"> Shiftnest</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#roi">ROI</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="brief.html">Marketing brief</a></li>
+        <li><a href="#demo" class="btn btn-small" data-cta="nav_book_demo">Book a demo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Staff scheduling for multi-location retail &amp; cafés</p>
+          <h1 id="hero-headline">Build next week’s roster in 10 minutes, not 4 hours.</h1>
+          <p class="lead" id="hero-sub">Shiftnest auto-fills shifts around availability, skills and labour budget, so store managers get their Sundays back.</p>
+          <div class="cta-row">
+            <a href="#demo" class="btn" data-cta="hero_primary">Start free — 1 location</a>
+            <a href="#roi" class="btn btn-ghost" data-cta="hero_secondary">Estimate your savings</a>
+          </div>
+          <p class="microcopy">Free forever for 1 location · No card needed · Set up in an afternoon</p>
+        </div>
+        <figure class="mock" aria-label="Illustration of the Shiftnest weekly roster">
+          <div class="mock-head"><span>Week of 16 Nov · Fitzroy store</span><span class="pill ok">Labour 27.4% of sales</span></div>
+          <table class="mock-grid">
+            <thead><tr><th scope="col">Staff</th><th scope="col">Mon</th><th scope="col">Tue</th><th scope="col">Wed</th><th scope="col">Thu</th><th scope="col">Fri</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Priya</th><td class="s a">7–3</td><td class="s a">7–3</td><td></td><td class="s b">11–7</td><td class="s b">11–7</td></tr>
+              <tr><th scope="row">Tom</th><td class="s b">11–7</td><td></td><td class="s a">7–3</td><td class="s a">7–3</td><td class="s warn" title="Overtime risk">3–11 ⚠</td></tr>
+              <tr><th scope="row">Mei</th><td></td><td class="s b">11–7</td><td class="s b">11–7</td><td></td><td class="s a">7–3</td></tr>
+              <tr><th scope="row">Arjun</th><td class="s c">3–9</td><td class="s c">3–9</td><td class="s c">3–9</td><td class="s swap">Swap ⇄</td><td></td></tr>
+            </tbody>
+          </table>
+          <figcaption>⚠ Tom hits 38h on Friday. <button class="link-btn" type="button" id="mock-fix">Auto-fix</button> <span id="mock-status" aria-live="polite"></span></figcaption>
+        </figure>
+      </div>
+      <div class="container logos" aria-label="Example customer types (fictional)">
+        <span>Trusted by teams like</span>
+        <ul><li>Kettle &amp; Crumb Cafés*</li><li>Northwind Pharmacy*</li><li>Loop Bike Co.*</li><li>Saltbush Grocers*</li></ul>
+        <small>*Fictional businesses for illustration.</small>
+      </div>
+    </section>
+
+    <section class="section" id="problem" aria-labelledby="problem-h">
+      <div class="container">
+        <h2 id="problem-h">Rostering by spreadsheet costs more than it looks</h2>
+        <div class="cards three">
+          <article class="card"><h3>Sunday-night spreadsheets</h3><p>Managers rebuild the roster by hand every week, juggling texts about who can’t work Thursday.</p></article>
+          <article class="card"><h3>Surprise overtime</h3><p>You only see overtime when payroll runs, after the money has gone.</p></article>
+          <article class="card"><h3>Last-minute no-shows</h3><p>A missed shift means a short-staffed rush, longer queues and lost sales.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="how" aria-labelledby="how-h">
+      <div class="container">
+        <h2 id="how-h">How Shiftnest works</h2>
+        <ol class="steps">
+          <li><span class="step-n" aria-hidden="true">1</span><h3>Import your team</h3><p>Upload a CSV or connect payroll. Add availability, skills and award rules once.</p></li>
+          <li><span class="step-n" aria-hidden="true">2</span><h3>Auto-fill the week</h3><p>Shiftnest drafts a roster that fits your labour budget and forecast foot traffic.</p></li>
+          <li><span class="step-n" aria-hidden="true">3</span><h3>Publish &amp; swap</h3><p>Staff get the roster in the app, swap shifts with each other, and you approve in one tap.</p></li>
+        </ol>
+        <div class="tabs" data-tabs>
+          <div role="tablist" aria-label="Features by role">
+            <button role="tab" id="tab-ops" aria-controls="panel-ops" aria-selected="true">For operations leads</button>
+            <button role="tab" id="tab-mgr" aria-controls="panel-mgr" aria-selected="false" tabindex="-1">For store managers</button>
+            <button role="tab" id="tab-staff" aria-controls="panel-staff" aria-selected="false" tabindex="-1">For staff</button>
+          </div>
+          <div role="tabpanel" id="panel-ops" aria-labelledby="tab-ops"><ul class="ticks"><li>Labour cost vs forecast sales across every store</li><li>Overtime alerts before shifts are published</li><li>Award and break rules checked automatically</li></ul></div>
+          <div role="tabpanel" id="panel-mgr" aria-labelledby="tab-mgr" hidden><ul class="ticks"><li>Copy last week and auto-fill gaps</li><li>See who’s available and qualified at a glance</li><li>Approve swaps and leave from your phone</li></ul></div>
+          <div role="tabpanel" id="panel-staff" aria-labelledby="tab-staff" hidden><ul class="ticks"><li>Roster in your pocket, with reminders</li><li>Set availability and swap shifts without group chats</li><li>Clock in from the app</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing" aria-labelledby="pricing-h">
+      <div class="container">
+        <h2 id="pricing-h">Pricing that scales with your locations</h2>
+        <p class="section-lead">Tell us about your team and we’ll recommend a plan. Regional price points, not currency conversions.</p>
+        <form class="picker" id="plan-form" aria-describedby="pricing-note">
+          <div class="field"><label for="p-locations">Locations</label><input id="p-locations" name="locations" type="number" min="1" max="500" value="4" inputmode="numeric"></div>
+          <div class="field"><label for="p-staff">Staff per location</label><input id="p-staff" name="staff" type="number" min="1" max="1000" value="18" inputmode="numeric"></div>
+          <div class="field"><label for="p-currency">Currency</label>
+            <select id="p-currency" name="currency"><option value="USD">USD $</option><option value="AUD">AUD A$</option><option value="INR">INR ₹</option></select></div>
+          <fieldset class="field"><legend>Billing</legend>
+            <div class="toggle"><input type="radio" id="b-monthly" name="billing" value="monthly"><label for="b-monthly">Monthly</label>
+            <input type="radio" id="b-annual" name="billing" value="annual" checked><label for="b-annual">Annual <span class="save">−20%</span></label></div></fieldset>
+          <fieldset class="field addons"><legend>Add-ons</legend>
+            <label><input type="checkbox" name="addons" value="payroll"> Payroll export</label>
+            <label><input type="checkbox" name="addons" value="forecast"> AI demand forecasting</label>
+            <label><input type="checkbox" name="addons" value="sms"> SMS shift alerts</label>
+            <label><input type="checkbox" name="sso"> SSO / custom contract</label></fieldset>
+        </form>
+        <div class="plans" id="plans">
+          <article class="plan" data-plan="starter"><h3>Starter</h3><p class="price" data-price="starter">Free</p><p>1 location, up to 15 staff. Rostering, mobile app, shift swaps.</p></article>
+          <article class="plan" data-plan="team"><h3>Team</h3><p class="price" data-price="team"></p><p>Up to 10 locations. Labour budget view, overtime alerts, availability.</p></article>
+          <article class="plan" data-plan="business"><h3>Business</h3><p class="price" data-price="business"></p><p>Up to 50 locations. AI demand forecasting included, award rules, API.</p></article>
+          <article class="plan" data-plan="enterprise"><h3>Enterprise</h3><p class="price">Custom</p><p>50+ locations, SSO, custom contract and onboarding team.</p></article>
+        </div>
+        <div class="quote" id="quote" aria-live="polite"></div>
+        <p class="note" id="pricing-note">Prices are illustrative for a fictional product. Excludes tax.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="roi" aria-labelledby="roi-h">
+      <div class="container roi-grid">
+        <div>
+          <h2 id="roi-h">What could Shiftnest save you?</h2>
+          <p class="section-lead">Adjust the inputs. Savings assumptions are conservative and shown below so you can challenge them.</p>
+          <form id="roi-form" class="roi-form">
+            <div class="field"><label for="r-locations">Locations</label><input id="r-locations" type="number" min="1" value="4"></div>
+            <div class="field"><label for="r-hours">Manager hours on rostering / week / location</label><input id="r-hours" type="number" min="0" step="0.5" value="4"></div>
+            <div class="field"><label for="r-rate">Manager hourly cost</label><input id="r-rate" type="number" min="0" value="35"></div>
+            <div class="field"><label for="r-wages">Weekly wage bill / location</label><input id="r-wages" type="number" min="0" step="100" value="9000"></div>
+            <div class="field"><label for="r-ot">Overtime as % of wages</label><input id="r-ot" type="range" min="0" max="20" step="0.5" value="6" aria-describedby="r-ot-val"><output id="r-ot-val" for="r-ot">6%</output></div>
+            <div class="field"><label for="r-noshow">No-shows / week / location</label><input id="r-noshow" type="number" min="0" value="2"></div>
+            <div class="field"><label for="r-noshow-cost">Cost per no-show (lost sales + cover)</label><input id="r-noshow-cost" type="number" min="0" value="60"></div>
+            <details class="assumptions"><summary>Edit assumptions</summary>
+              <div class="field"><label for="a-time">Rostering time saved</label><input id="a-time" type="number" min="0" max="100" value="60"> %</div>
+              <div class="field"><label for="a-ot">Overtime reduced</label><input id="a-ot" type="number" min="0" max="100" value="15"> %</div>
+              <div class="field"><label for="a-ns">No-shows reduced</label><input id="a-ns" type="number" min="0" max="100" value="25"> %</div>
+            </details>
+          </form>
+        </div>
+        <div class="roi-out" id="roi-out" aria-live="polite">
+          <p class="big" id="roi-net">—</p>
+          <p id="roi-sub">net saving per month</p>
+          <dl class="roi-dl">
+            <div><dt>Manager hours back</dt><dd id="roi-hours">—</dd></div>
+            <div><dt>Time value</dt><dd id="roi-time">—</dd></div>
+            <div><dt>Overtime avoided</dt><dd id="roi-ot">—</dd></div>
+            <div><dt>No-shows avoided</dt><dd id="roi-ns">—</dd></div>
+            <div><dt>Shiftnest cost (your quote)</dt><dd id="roi-cost">—</dd></div>
+            <div><dt>Return on spend</dt><dd id="roi-multiple">—</dd></div>
+            <div><dt>Payback</dt><dd id="roi-payback">—</dd></div>
+          </dl>
+          <div class="bar" aria-hidden="true"><span id="bar-time"></span><span id="bar-ot"></span><span id="bar-ns"></span></div>
+          <p class="note">Uses the currency and quote from the pricing section. Illustrative estimate, not a guarantee.</p>
+          <a href="#demo" class="btn" data-cta="roi_book_demo">Walk through these numbers in a demo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="compare" aria-labelledby="compare-h">
+      <div class="container">
+        <h2 id="compare-h">Shiftnest vs the usual way</h2>
+        <div class="table-wrap">
+          <table class="compare">
+            <caption class="sr-only">Comparison of Shiftnest with spreadsheets and generic HR suites</caption>
+            <thead><tr><th scope="col">Capability</th><th scope="col">Spreadsheets + group chat</th><th scope="col">Generic HR suite</th><th scope="col">Shiftnest</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Auto-filled rosters</th><td>✗</td><td>Partial</td><td>✓</td></tr>
+              <tr><th scope="row">Overtime warning before publish</th><td>✗</td><td>✗</td><td>✓</td></tr>
+              <tr><th scope="row">Labour cost vs forecast sales</th><td>Manual</td><td>Reports only</td><td>✓ Live</td></tr>
+              <tr><th scope="row">Staff shift swaps in app</th><td>✗</td><td>✓</td><td>✓</td></tr>
+              <tr><th scope="row">Built for multi-location retail &amp; cafés</th><td>✗</td><td>✗</td><td>✓</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="stories" aria-labelledby="stories-h">
+      <div class="container">
+        <h2 id="stories-h">What teams say <small>(fictional testimonials)</small></h2>
+        <div class="cards three">
+          <blockquote class="card"><p>“I used to lose my Sunday to the roster. Now it’s a coffee’s worth of clicks.”</p><footer>— Store manager, Kettle &amp; Crumb Cafés*</footer></blockquote>
+          <blockquote class="card"><p>“The overtime warning paid for the whole thing in the first month.”</p><footer>— Ops lead, Saltbush Grocers*</footer></blockquote>
+          <blockquote class="card"><p>“Swapping a shift doesn’t mean messaging ten people anymore.”</p><footer>— Pharmacy assistant, Northwind Pharmacy*</footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demo" aria-labelledby="demo-h">
+      <div class="container demo-grid">
+        <div>
+          <h2 id="demo-h">Start free or book a 20-minute demo</h2>
+          <p class="section-lead">We’ll set up your first location with you. Multi-site teams get a walkthrough with live labour-cost data.</p>
+          <ul class="ticks"><li>Free forever for 1 location</li><li>Import staff from CSV or payroll</li><li>Cancel anytime</li></ul>
+        </div>
+        <form id="lead-form" class="lead-form" novalidate>
+          <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required aria-describedby="e-name"><p class="err" id="e-name" aria-live="polite"></p></div>
+          <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email"><p class="err" id="e-email" aria-live="polite"></p></div>
+          <div class="field"><label for="f-company">Business name</label><input id="f-company" name="company" autocomplete="organization" required aria-describedby="e-company"><p class="err" id="e-company" aria-live="polite"></p></div>
+          <div class="field two">
+            <div><label for="f-locations">Locations</label><input id="f-locations" name="locations" type="number" min="1" required aria-describedby="e-locations"><p class="err" id="e-locations" aria-live="polite"></p></div>
+            <div><label for="f-industry">Industry</label><select id="f-industry" name="industry" required aria-describedby="e-industry"><option value="">Choose…</option><option value="retail">Retail</option><option value="hospitality">Hospitality / cafés</option><option value="healthcare">Pharmacy / healthcare</option><option value="warehousing">Warehousing</option><option value="other">Other</option></select><p class="err" id="e-industry" aria-live="polite"></p></div>
+          </div>
+          <div class="field"><label for="f-timeline">When do you want to switch?</label><select id="f-timeline" name="timeline"><option value="now">This month</option><option value="quarter">This quarter</option><option value="exploring" selected>Just exploring</option></select></div>
+          <div class="field check"><input id="f-consent" name="consent" type="checkbox" aria-describedby="e-consent"><label for="f-consent">I agree to be contacted about Shiftnest (demo only, nothing is sent).</label><p class="err" id="e-consent" aria-live="polite"></p></div>
+          <button class="btn" type="submit">Request my demo</button>
+          <div class="form-result" id="form-result" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section alt" id="faq" aria-labelledby="faq-h">
+      <div class="container narrow">
+        <h2 id="faq-h">Questions</h2>
+        <details class="faq"><summary>Does it work for one store?</summary><p>Yes. Starter is free forever for one location with up to 15 staff.</p></details>
+        <details class="faq"><summary>Can it check award and break rules?</summary><p>Business plans check break and overtime rules you configure, and flag shifts that break them before you publish.</p></details>
+        <details class="faq"><summary>How does AI demand forecasting work?</summary><p>It uses your past sales and foot traffic to suggest how many people you need each hour. You stay in control of the final roster.</p></details>
+        <details class="faq"><summary>Is my data safe?</summary><p>In this demo nothing leaves your browser. A real product would publish its security and privacy practices here.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p><strong>Shiftnest</strong> is a fictional brand created by <a href="https://github.com/yashsarkar1806-creator">Yash Sarkar</a> as a marketing portfolio project. Any resemblance to real companies is coincidental.</p>
+      <p><a href="brief.html">Positioning &amp; messaging brief</a> · <a href="https://github.com/yashsarkar1806-creator/shiftnest-saas-landing">Source on GitHub</a> · <button class="link-btn" type="button" id="debug-toggle" aria-expanded="false" aria-controls="debug-panel">Show tracking events</button></p>
+    </div>
+  </footer>
+
+  <aside class="debug" id="debug-panel" hidden aria-label="dataLayer event inspector">
+    <div class="debug-head"><strong>dataLayer inspector</strong> <span id="debug-variant"></span>
+      <span class="debug-actions"><a href="?variant=A">A</a> <a href="?variant=B">B</a> <a href="?variant=C">C</a> <button type="button" id="debug-reset">New visitor</button> <button type="button" id="debug-close" aria-label="Close inspector">×</button></span></div>
+    <ol id="debug-log"></ol>
+  </aside>
+
+  <script src="js/logic.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
